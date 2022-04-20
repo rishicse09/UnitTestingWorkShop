@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2128A9EB2810B044003F2A54 /* UnitTestUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128A9EA2810B044003F2A54 /* UnitTestUtilities.swift */; };
 		2156A932280CA817002D4F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2156A931280CA817002D4F27 /* AppDelegate.swift */; };
 		2156A934280CA817002D4F27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2156A933280CA817002D4F27 /* SceneDelegate.swift */; };
 		2156A936280CA817002D4F27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2156A935280CA817002D4F27 /* ViewController.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2128A9EA2810B044003F2A54 /* UnitTestUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestUtilities.swift; sourceTree = "<group>"; };
 		2156A92E280CA817002D4F27 /* AdvancedTestingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedTestingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2156A931280CA817002D4F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2156A933280CA817002D4F27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 			children = (
 				2156A952280CA819002D4F27 /* AdvancedTestingDemoUITests.swift */,
 				2156A954280CA819002D4F27 /* AdvancedTestingDemoUITestsLaunchTests.swift */,
+				2128A9EA2810B044003F2A54 /* UnitTestUtilities.swift */,
 			);
 			path = AdvancedTestingDemoUITests;
 			sourceTree = "<group>";
@@ -476,6 +479,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2128A9EB2810B044003F2A54 /* UnitTestUtilities.swift in Sources */,
 				2156A955280CA819002D4F27 /* AdvancedTestingDemoUITestsLaunchTests.swift in Sources */,
 				2156A953280CA819002D4F27 /* AdvancedTestingDemoUITests.swift in Sources */,
 			);
